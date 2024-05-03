@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/svg/logo.svg" type="image/x-icon">
+    <title>Coffe shop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper header_wrapper">
+            <div class="container_header"> 
+                <div class="logo">
+                   <a href="index.html"><img src="assets/svg/logo.svg" alt="logo"></a> 
+                </div>
+                <!--Бургер меню-->
+                <div class="container_nav">
+                    <nav class="header_nav">
+                        <ul class="ul_nav">
+                            <li class="nav_link"><a class="link_nav_a" href="index.html#favorite">Favorite coffee</a></li>
+                            <li class="nav_link"><a class="link_nav_a" href="index.html#about">About</a></li>
+                            <li class="nav_link"><a class="link_nav_a" href="index.html#mobile">Mobile app</a></li>
+                            <li class="nav_link"><a class="link_nav_a" href="#contact">Contact us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu">
+                        <button class="menu_but" onclick="document.location='menu.html'">
+                            <span class="menu_header">Menu</span>
+                            <img src="assets/svg/coffee-cup.svg" alt="menu_ico" class="img_menu_ico_header">
+                        </button>
+                    </div>       
+                </div>
+                <div class="burger">
+                    <span class="burger_line"></span>
+                    <span class="burger_line"></span>
+                </div>
+            </div>  
+        </div>
+    </header>
+    <main class="main">
+        <section class="menus">
+            <div class="wrapper">
+                <div class="container_menu">
+                    <h1 class="menu_h1">Behind each of our cups hides an <span class="menu_h1_italic">amazing surprise</span></h1>
+                    <div class="many_buttons">
+                        <button class="buton_sweet" id="but-coffee">
+                            <span class="icons-sweet"><img src="assets/img/ico-1.png" alt="ico-1"></span>
+                            <span class="icons-text-sweet">Coffee</span>
+                        </button>
+                        <button class="buton_sweet" id="but-tea">
+                            <span class="icons-sweet"><img src="assets/img/ico-2.png" alt="ico-2"></span>
+                            <span class="icons-text-sweet">Tea</span>
+                        </button>
+                        <button class="buton_sweet" id="but-dessert">
+                            <span class="icons-sweet"><img src="assets/img/ico-3.png" alt="ico-3"></span>
+                            <span class="icons-text-sweet">Dessert</span>
+                        </button>
+                    </div>
+                </div>
+                <!--Начинается меню на выбор!!!!-->
+                  <!--КОФЕ-->
+                <div class="for_refresh">
+                <div class="images-many-menu" id='coffe-menu'>
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-1.png" alt="coffe-1" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Irish coffee</span>
+                                <span class="description-sweet-menu">Fragrant black coffee with Jameson Irish whiskey and whipped milk</span>
+                            </div>
+                            <div class="description_top_botton">
+                                <span class="price_sell">$7.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Вторая!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-2.png" alt="coffe-2" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Kahlua coffee</span>
+                                <span class="description-sweet-menu">Classic coffee with milk and Kahlua liqueur under a cap of frothed milk</span>
+                            </div>
+                            <span class="price_sell">$7.00</span>
+                        </div>
+                    </div>
+                    <!--Третья!!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-3.png" alt="coffe-3" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Honey raf</span>
+                                <span class="description-sweet-menu">Espresso with frothed milk, cream and aromatic honey</span>
+                            </div>  
+                            <span class="price_sell">$5.50</span>
+                        </div>
+                    </div>
+                    <!--Четвертая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-4.png" alt="coffe-4" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Ice cappuccino</span>
+                                <span class="description-sweet-menu">Cappuccino with soft thick foam in summer version with ice</span>
+                            </div>
+                            <span class="price_sell">$5.00</span>
+                        </div>
+                    </div>
+                    <!--Пятая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-5.png" alt="coffe-5" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Espresso</span>
+                                <span class="description-sweet-menu">Classic black coffee</span>
+                            </div>
+                            <span class="price_sell">$4.50</span> 
+                        </div>
+                    </div>
+                    <!--Шестая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-6.png" alt="coffe-6" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Latte</span>
+                                <span class="description-sweet-menu">Espresso coffee with the addition of steamed milk and dense milk foam</span>
+                            </div>
+                            <span class="price_sell">$5.50</span>
+                        </div>
+                    </div>
+                    <!--Седьмая!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-7.png" alt="coffe-7" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Latte macchiato</span>
+                                <span class="description-sweet-menu">Espresso with frothed milk and chocolate</span>
+                            </div>
+                            <span class="price_sell">$5.50</span>
+                        </div>
+                    </div>
+                    <!--Восьмая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/coffee-8.png" alt="coffe-8" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Coffee with cognac</span>
+                                <span class="description-sweet-menu">Fragrant black coffee with cognac and whipped cream</span>
+                            </div>  
+                            <span class="price_sell">$6.50</span>
+                        </div>
+                    </div>
+                </div>
+                <!--ЧАЙ-->
+                <!--ЧАЙ-->
+                <div class="images-many-menu" id='tea-menu'>
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/tea-1.png" alt="tea-1" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Moroccan</span>
+                                <span class="description-sweet-menu">Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint</span>
+                            </div>
+                            <div class="description_top_botton">
+                                <span class="price_sell">$4.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Вторая!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/tea-2.png" alt="tea-2" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Ginger</span>
+                                <span class="description-sweet-menu">Original black tea with fresh ginger, lemon and honey</span>
+                            </div>
+                            <span class="price_sell">$5.00</span>
+                        </div>
+                    </div>
+                    <!--Третья!!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/tea-3.png" alt="tea-3" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Cranberry</span>
+                                <span class="description-sweet-menu">Invigorating black tea with cranberry and honey</span>
+                            </div>  
+                            <span class="price_sell">$5.00</span>
+                        </div>
+                    </div>
+                    <!--Четвертая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/tea-4.png" alt="tea-4" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Sea buckthorn</span>
+                                <span class="description-sweet-menu">Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon</span>
+                            </div>
+                            <span class="price_sell">$5.50</span>
+                        </div>
+                    </div>
+                </div>  
+                <!--ДЕСЕРТЫ-->
+                <!--ДЕСЕРТЫ-->
+                <div class="images-many-menu" id='dessert-menu'>
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-1.png" alt="dessert-1" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Marble cheesecake</span>
+                                <span class="description-sweet-menu">Philadelphia cheese with lemon zest on a light sponge cake and red currant jam</span>
+                            </div>
+                            <div class="description_top_botton">
+                                <span class="price_sell">$3.50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Вторая!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-2.png" alt="dessert-2" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Red velvet</span>
+                                <span class="description-sweet-menu">Layer cake with cream cheese frosting</span>
+                            </div>
+                            <span class="price_sell">$4.00</span>
+                        </div>
+                    </div>
+                    <!--Третья!!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-3.png" alt="dessert-3" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Cheesecakes</span>
+                                <span class="description-sweet-menu">Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar</span>
+                            </div>  
+                            <span class="price_sell">$4.50</span>
+                        </div>
+                    </div>
+                    <!--Четвертая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-4.png" alt="dessert-4" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Creme brulee</span>
+                                <span class="description-sweet-menu">Delicate creamy dessert in a caramel basket with wild berries</span>
+                            </div>
+                            <span class="price_sell">$4.00</span>
+                        </div>
+                    </div>
+                    <!--Пятая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-5.png" alt="dessert-5" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Pancakes</span>
+                                <span class="description-sweet-menu">Tender pancakes with strawberry jam and fresh strawberries</span>
+                            </div>
+                            <span class="price_sell">$4.50</span> 
+                        </div>
+                    </div>
+                    <!--Шестая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-6.png" alt="dessert-6" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Honey cake</span>
+                                <span class="description-sweet-menu">Classic honey cake with delicate custard</span>
+                            </div>
+                            <span class="price_sell">$4.50</span>
+                        </div>
+                    </div>
+                    <!--Седьмая!!!-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-7.png" alt="dessert-7" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Chocolate cake</span>
+                                <span class="description-sweet-menu">Cake with hot chocolate filling and nuts with dried apricots</span>
+                            </div>
+                            <span class="price_sell">$5.50</span>
+                        </div>
+                    </div>
+                    <!--Восьмая-->
+                    <div class="changes">
+                        <div class="image_div_size">
+                            <img src="assets/img/menu/dessert-8.png" alt="dessert-8" class="img-sweet-look">
+                        </div>
+                        <div class="desc_sweet_div">
+                            <div class="description_top">
+                                <span class="title-sweet-look">Black forest</span>
+                                <span class="description-sweet-menu">A combination of thin sponge cake with cherry jam and light chocolate mousse</span>
+                            </div>  
+                            <span class="price_sell">$6.50</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Кнопка загрузки изображений-->
+                <div class="button_load_menu">
+                    <button class="but_load">
+                        <svg class="refresh_but_load" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="refresh">
+                            <path id="Ellipse_7" d="M21.8883 13.5C21.1645 18.3113 17.013 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C16.1006 2 19.6248 4.46819 21.1679 8"  stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="Ellipse_8" d="M17 8H21.4C21.7314 8 22 7.73137 22 7.4V3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+           <!--Закрывает блок--> </div>
+            </div>
+        </section>      
+    </main>
+    <footer class="footer footer_menu" id=contact>
+        <div class="wrapper wrapper_footer">
+            <div class="container_footer">
+                <div class="footer_column_1">
+                    <h2 class="footer_h2">Sip, Savor, Smile. <span class="text_border">It’s coffee time!</span></h2>
+                    <div class="icons_footer">
+                        <div class="ico-footer">
+                            <svg class="footer_icons_change_color" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="twitter">
+                                <path id="Vector_0" d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z"  stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                </svg>
+                        </div>
+                        <div class="ico-footer">
+                            <svg class="footer_icons_change_color" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="instagram">
+                                <path id="Vector_1" d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"  stroke-linecap="round" stroke-linejoin="round"/>
+                                <path id="Vector_2" d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" />
+                                <path id="Vector_3" d="M17.5 6.51L17.51 6.49889"  stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                </svg>
+                        </div>
+                        <div class="ico-footer">
+                            <svg class="footer_icons_change_color" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="facebook">
+                                <path id="Vector_5" d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"  stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                </svg> 
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_column_2">
+                    <span class="contact_text_footer">Contact us</span>
+                    <div class="contact_container">
+                        <a href="https://maps.app.goo.gl/Es9wfbH7Ho7u4jc28" target="_blank"><div class="contact_div contact_div_line"><img src="assets/svg/pin-alt.svg" alt="address-ico"><span class="contact_us_text">8558 Green Rd.,  LA</span></div></a>
+                        <a href="tel:#"><div class="contact_div contact_div_line"><img src="assets/svg/phone.svg" alt="address-ico"><span class="contact_us_text">+1 (603) 555-0123</span></div></a>
+                        <div class="contact_div"><img src="assets/svg/clock.svg" alt="address-ico"><span class="contact_us_text">Mon-Sat: 9:00 AM – 23:00 PM</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="burger.js"></script>
+  <script src="menu_catalog.js"></script>
+</body>
+</html>

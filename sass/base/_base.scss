@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+    
+}
+  
+  body {
+    width: 100%;
+    background-color: $text-light;
+  }
+
+  .no_scroll_body {
+    overflow: hidden;
+    height: 100dvh;
+  }
+
+
+  h1{
+    color: $text-light;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105%;
+    @include media-mobile {
+        font-size: 42px;
+        align-self: stretch;
+        line-height: 115%; 
+    }
+  }
+
+  h2 {
+    color: $text-dark;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+
+    @include media-mobile {
+      font-size: 32px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+

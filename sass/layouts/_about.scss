@@ -1,0 +1,50 @@
+.about {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.images {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    overflow: hidden;
+    @include media-tablet {
+        flex-wrap: wrap;  
+    }
+}
+
+.colums {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow: hidden;
+    @include media-tablet {
+        height: 590px;
+        align-self: stretch;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+}
+
+
+.images_radius {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include media-mobile {
+  
+    }
+}
+
+.images_radius:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.hide_mobile_images {
+    @include media-tablet {
+        display: none;
+    }
+}

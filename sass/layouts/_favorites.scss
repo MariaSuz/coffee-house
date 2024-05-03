@@ -1,0 +1,239 @@
+.favorite_coffe {
+    padding-top: 100px;
+}
+
+.h2_slider {
+    text-align: center;
+}
+.text_border {
+    color: $text-accent;
+    font-style: italic;
+}
+
+.slider {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    //max-width: 1360px;
+
+}
+
+.slider_but_img {
+    display: flex;
+    transition: all 0.5s;  
+    width: 300%;
+    //justify-content: center;
+   // align-items: center;
+    //overflow: hidden;
+    //max-width: 1162px;
+  //  max-width: 480px;
+   // height: 640px;
+    @include media-tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       // gap: 480px;
+        align-self: stretch;
+    }
+    @include media-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        //gap: 0px;
+        align-self: stretch;
+        max-width: 348px;
+    }
+}
+
+.sliderLine {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 0;
+    transition: all 0.5s;  
+    width: 300%;
+    //height: 640px;
+}
+
+.arrow_left{
+    display:flex;
+    text-decoration:none;
+    background-color: transparent;
+    outline: none;
+    border-radius: 100px;
+    border: 1px solid $border-dark;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 46%;
+    z-index: 5;
+    & .arrows_svg_color {
+        stroke: #403F3D;
+        width: 24px;
+        height: 24px;
+    
+    }
+    &:hover {
+        border-radius: 100px;
+    background: $background-container;
+        .arrows_svg_color {
+            stroke: #E1D4C9;
+        }
+    }
+
+    @include media-mobile {
+        display: none;
+    }
+}
+
+
+
+.arrow_right {
+    text-decoration:none;
+    background-color: transparent;
+    outline: none;
+    border-radius: 100px;
+    border: 1px solid $border-dark;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 46%;
+    z-index: 5;
+    & .arrows_svg_color {
+        stroke: #403F3D;
+        width: 24px;
+        height: 24px;
+    
+    }
+    &:hover {
+        border-radius: 100px;
+    background: $background-container;
+        .arrows_svg_color {
+            stroke: #E1D4C9;
+        }
+    }
+
+    @include media-mobile {
+        display: none;
+    }
+}
+
+.arrow-object {
+    width: 24px;
+    height: 24px;
+}
+
+.slider_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    @include media-tablet {
+        max-width: 480px;
+    }
+
+    @include media-mobile {
+        display: flex;
+        max-width: 348px;
+        flex-direction: column;
+        align-items: center;         
+    }
+}
+
+.coffe-img-size {
+    width: 480px;
+    height: 480px;
+    @include media-mobile {   
+        width: 348px;
+        height: 348px;
+    }
+}
+
+.slider_text {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    @include media-mobile {   
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+    }
+    
+}
+
+.razmer {
+    text-align: center;
+    @include media-mobile {
+        max-width: 348px;
+        display: inline-flex;
+        text-align: center;
+    }
+}
+.slider_h {
+    color: $text-dark;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Desktop/Heading/heading-3 */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 30px */
+}
+
+.slider_text_small {
+    color: $text-dark;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Desktop/Body/medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.slider_controls {
+    margin: auto;
+    display: flex;
+    gap: 12px;
+}
+
+.slider_line {
+    width: 40px;
+    height: 4px;
+    border-radius: 100px;
+    background: $border-light;
+   
+}
+
+.slider_line:hover {
+    background: $border-dark;
+}
+
+.slider_line_special {
+    background: $border-dark;
+}
+

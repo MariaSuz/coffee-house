@@ -1,0 +1,20 @@
+%font-body {
+color: $text-accent;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 30px */
+}
+
+%font-header {
+color: $text-dark;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Desktop/Action/link & button */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
